@@ -1,7 +1,7 @@
 {
-  "name": "theme-template",
-  "version": "1.0.0",
-  "description": "A theme template",
+  "name": "neko-girl-smoking",
+  "version": "0.0.1",
+  "description": "neko-girl-smoking",
   "engines": {
     "node": ">=14.0.0"
   },
