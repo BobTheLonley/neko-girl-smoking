@@ -1,7 +1,5 @@
-@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css");
-
-:root 
-{
+        ü  {"files":{"main.css":{"size":3021,"offset":"0","integrity":{"algorithm":"SHA256","hash":"f7c6efb46e63fa26a978b59fba871e901ffd59e322d9eb26e554075ef9ea22dc","blockSize":4194304,"blocks":["f7c6efb46e63fa26a978b59fba871e901ffd59e322d9eb26e554075ef9ea22dc"]}},"manifest.json":{"size":329,"offset":"3021","integrity":{"algorithm":"SHA256","hash":"55b793263c85c88d25f71993d78f203bbd4dd9f483d20cf6d600dc018554a6e5","blockSize":4194304,"blocks":["55b793263c85c88d25f71993d78f203bbd4dd9f483d20cf6d600dc018554a6e5"]}}}}@import "https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css";
+:root {
   --background-primary: transparent;
   --background-secondary: transparent;
   --background-secondary-alt: transparent;
