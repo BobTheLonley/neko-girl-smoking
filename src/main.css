@@ -1,216 +1,133 @@
-/* Credit to https://github.com/Overimagine1/old-discord-font */
-
-@font-face {
-  font-family: Whitney;
-  font-style: normal;
-  font-weight: 300;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/46933da896ba96126074286056614542.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: Whitney;
-  font-style: italic;
-  font-weight: 300;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/1651ce6325c0da043476ace0bec3971b.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: Whitney;
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/24bda95d153a319704c33329f3ab84bb.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: Whitney;
-  font-style: italic;
-  font-weight: 400;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/7f18f1d5ab6ded7cf71bbc1f907ee3d4.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: Whitney;
-  font-style: normal;
-  font-weight: 500;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/cf4a8a10bbdf9b775fad41e0b9921c84.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: Whitney;
-  font-style: italic;
-  font-weight: 500;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/9cfa747e897c772d25efd8e4a42a005e.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: Whitney;
-  font-style: normal;
-  font-weight: 600;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/f9e7047f6447547781512ec4b977b2ab.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: Whitney;
-  font-style: italic;
-  font-weight: 600;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/21070f52a8a6a61edef9785eaf303fb8.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: Whitney;
-  font-style: normal;
-  font-weight: 700;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/f9c8fcfa7dcc5d6a291a6ebbe3bb847e.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: Whitney;
-  font-style: italic;
-  font-weight: 700;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/5e1649183589023fb24667a369af585d.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Normal;
-  font-style: normal;
-  font-weight: 300;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/ab688947d482808a0b3347f84ebb17a9.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Normal;
-  font-style: italic;
-  font-weight: 300;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/0635f419b122d24f9f60ac4d1066cbc6.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Normal;
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/91dcabd038a2e07ea6fbe7ddb625ecfb.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Normal;
-  font-style: italic;
-  font-weight: 400;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/ea053183733605b24806f222b067b1e1.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Normal;
-  font-style: normal;
-  font-weight: 500;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/9491a199bd318f1fc38711fb5067f401.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Normal;
-  font-style: italic;
-  font-weight: 500;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/f0cf30536a7fa447f0c45fdb3b2a6f28.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Normal;
-  font-style: normal;
-  font-weight: 700;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/7d66dfcf8e39f27f163fba8d79577fd8.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Normal;
-  font-style: italic;
-  font-weight: 700;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/9a07cb5ae387a52309b7198543ae5e02.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Nord;
-  font-style: normal;
-  font-weight: 300;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/5e6f352adb4a6b55ed230f2f91769156.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Nord;
-  font-style: italic;
-  font-weight: 300;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/30b475dcfa1e8b74d815946e4c18ee09.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Nord;
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/1ace668db419a5014cf75bc116321af3.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Nord;
-  font-style: italic;
-  font-weight: 400;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/50510b66614a2f395530c61b7c9b6827.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Nord;
-  font-style: normal;
-  font-weight: 500;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/9e94673570e295b6fb5d4456c4211015.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Nord;
-  font-style: italic;
-  font-weight: 500;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/6603a2fb4d2bc997e023972a51938144.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Nord;
-  font-style: normal;
-  font-weight: 700;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/87c79174865938aedf188b7344fb0428.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Nord;
-  font-style: italic;
-  font-weight: 700;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/d93311938f51e8608a5d5cb2ea975157.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Nord;
-  font-style: normal;
-  font-weight: 800;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/bc5af8e71e27d363e2eeac75c9628922.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Nord;
-  font-style: italic;
-  font-weight: 800;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/dc407fd65057fce34a56bf7b6ebb0b9f.woff2)
-    format("woff2");
-}
-
+        ü  {"files":{"main.css":{"size":3021,"offset":"0","integrity":{"algorithm":"SHA256","hash":"f7c6efb46e63fa26a978b59fba871e901ffd59e322d9eb26e554075ef9ea22dc","blockSize":4194304,"blocks":["f7c6efb46e63fa26a978b59fba871e901ffd59e322d9eb26e554075ef9ea22dc"]}},"manifest.json":{"size":329,"offset":"3021","integrity":{"algorithm":"SHA256","hash":"55b793263c85c88d25f71993d78f203bbd4dd9f483d20cf6d600dc018554a6e5","blockSize":4194304,"blocks":["55b793263c85c88d25f71993d78f203bbd4dd9f483d20cf6d600dc018554a6e5"]}}}}@import "https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css";
 :root {
-  --font-primary: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-display: "ABC Ginto Normal", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-headline: "ABC Ginto Nord", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-code: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter",
-    "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco,
-    "Courier New", Courier, monospace;
-  --font-korean: Whitney, "Apple SD Gothic Neo", NanumBarunGothic, "\B9D1\C740 \ACE0\B515",
-    "Malgun Gothic", Gulim, 굴림, Dotum, 돋움, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-japanese: Whitney, "Hiragino Sans", "\30D2\30E9\30AE\30CE\89D2\30B4 ProN W3",
-    "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, Osaka, "MS PGothic", "Helvetica Neue", Helvetica,
-    Arial, sans-serif;
-  --font-chinese-simplified: Whitney, "Microsoft YaHei New", 微软雅黑, "Microsoft Yahei",
-    "Microsoft JhengHei", 宋体, SimSun, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-chinese-traditional: Whitney, "Microsoft JhengHei", 微軟正黑體, "Microsoft JhengHei UI",
-    "Microsoft YaHei", 微軟雅黑, 宋体, SimSun, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --background-primary: transparent;
+  --background-secondary: transparent;
+  --background-secondary-alt: transparent;
+  --background-tertiary: transparent;
+  --scrollbar-auto-thumb: rgba(0, 0, 0, .867);
+  --scrollbar-auto-track: rgba(0, 0, 0, .4);
+  --profile-body-background-color: transparent;
+  --modal-background: transparent;
+  --modal-footer-background: transparent;
+  --activity-card-background: var(--background-secondary);
+  --background-modifier-selected: var(--background-tertiary);
+  --mention-colour: 255, 33, 88;
+  --settingsmodalbackground: transparent;
+  --settingsmodalwidth: 960px;
+  --settingsmodalheight: 80vh;
+  --background-modifier-active: var(--background-tertiary);
+  --channeltextarea-background: var(--background-secondary);
+  --background-message-hover: var(--background-modifier-hover);
 }
+
+.appMount-2yBXZl {
+  background: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url("https://vsthemes.org/uploads/posts/2021-12/1639091742_izobrazhenie_2021-12-10_021410.webp") center no-repeat;
+  background-size: cover !important;
+}
+
+.chat-2ZfjoI > *, .chat-2ZfjoI > * > * {
+  background: none !important;
+}
+
+.role-2TIOKu {
+  border: 1px solid;
+  border-color: rgba(255, 255, 255, .2) !important;
+}
+
+.layer-2BGhQ8:not(.disabledPointerEvents-cGr1My) > * > *, .contentColumn-1C7as6, .background-2avFV1, .connectionHeader-Ixbb1s, .connectionOptionsWrapper-3aVWcp, .integrationsWrapper-1V-5L9, .metadataContainer-35U-On, .connectContainer-1hylYM, .replugged-quickcss-wrapper, .scrollableContainer-15eg7h, .autocomplete-3NRXG8, .expandedFolderBackground-1kSAf6:not(.collapsed-uGXEbi), .grid-1aWVsE, .wrapper-1FP9YQ, .scrollbarGhostHairline-2LpzZ9, .inline {
+  background-color: rgba(0, 0, 0, .333) !important;
+}
+
+.peopleColumn-1wMU14 {
+  background: var(--background-primary);
+}
+
+[class*="lineClamp2Plus-"] {
+  -webkit-line-clamp: unset !important;
+}
+
+.mentioned-Tre-dv {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: rgba(var(--mention-colour), .08) !important;
+}
+
+.mentioned-Tre-dv:hover {
+  background-color: rgba(var(--mention-colour), .1) !important;
+}
+
+div[class*="mentioned"]:before {
+  width: 4px;
+  background-color: rgb(var(--mention-colour));
+}
+
+div[class*="replying"]:before {
+  width: 4px;
+}
+
+div.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label="Help"], .wordmarkWindows-2dq6rw, div[id="user-context-invite-to-server"], div[id="user-context-call"] {
+  display: none !important;
+}
+
+.mediaAttachmentsContainer-1WGRWy, .oneByOneGridSingle-2ss-Zx, .messageAttachmentMediaMosaic-2ic1yt, .imageWrapper-oMkQl4 {
+  border-radius: 0;
+}
+
+.searchBar-jGtisZ {
+  width: 75px;
+  background: var(--background-secondary);
+  border-radius: 12px;
+}
+
+.children-3xh0VB:after {
+  display: none;
+}
+
+.role-2TIOKu {
+  border-radius: 12px;
+}
+
+.roleCircle-1EgnFN {
+  width: 5px !important;
+  height: 5px !important;
+}
+
+.content-1gYQeQ {
+  border-radius: 25px;
+}
+
+.unread-36eUEm {
+  z-index: 1;
+  height: 6px;
+  width: 6px;
+  background-color: rgba(var(--mention-colour));
+  border-radius: 50%;
+  margin-top: 0;
+  position: absolute;
+  top: 42%;
+  left: 3px;
+}
+
+.embedFull-1HGV2S {
+  border-radius: 0 15px 15px 0;
+}
+
+.theme-light .channel-typing-indicator {
+  -webkit-filter: invert();
+  filter: invert();
+}
+
+.scrollableContainer-15eg7h {
+  border-radius: 25px;
+}
+
+.hasConnectedBar-1vN2JH {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+
+.attachedBars-2BCP3l, .replyBar-1oi75v {
+  border-top-left-radius: 25px !important;
+  border-top-right-radius: 25px !important;
+}
+{"id":"dev.BobTheLonley.neko-girl-smoking","name":"neko-girl-smoking","description":"smokeing neko girl","author":{"name":"Bob The Lonley Fisherman","discordID":"531303458263924746","github":"BobTheLonley"},"version":"0.0.1","updater":{"type":"github","id":"BobTheLonley/neko-girl-smoking"},"license":"MIT","type":"replugged-theme","main":"main.css"}
