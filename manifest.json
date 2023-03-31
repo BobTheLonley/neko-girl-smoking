@@ -1,133 +1,18 @@
-        ü  {"files":{"main.css":{"size":3021,"offset":"0","integrity":{"algorithm":"SHA256","hash":"f7c6efb46e63fa26a978b59fba871e901ffd59e322d9eb26e554075ef9ea22dc","blockSize":4194304,"blocks":["f7c6efb46e63fa26a978b59fba871e901ffd59e322d9eb26e554075ef9ea22dc"]}},"manifest.json":{"size":329,"offset":"3021","integrity":{"algorithm":"SHA256","hash":"55b793263c85c88d25f71993d78f203bbd4dd9f483d20cf6d600dc018554a6e5","blockSize":4194304,"blocks":["55b793263c85c88d25f71993d78f203bbd4dd9f483d20cf6d600dc018554a6e5"]}}}}@import "https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css";
-:root {
-  --background-primary: transparent;
-  --background-secondary: transparent;
-  --background-secondary-alt: transparent;
-  --background-tertiary: transparent;
-  --scrollbar-auto-thumb: rgba(0, 0, 0, .867);
-  --scrollbar-auto-track: rgba(0, 0, 0, .4);
-  --profile-body-background-color: transparent;
-  --modal-background: transparent;
-  --modal-footer-background: transparent;
-  --activity-card-background: var(--background-secondary);
-  --background-modifier-selected: var(--background-tertiary);
-  --mention-colour: 255, 33, 88;
-  --settingsmodalbackground: transparent;
-  --settingsmodalwidth: 960px;
-  --settingsmodalheight: 80vh;
-  --background-modifier-active: var(--background-tertiary);
-  --channeltextarea-background: var(--background-secondary);
-  --background-message-hover: var(--background-modifier-hover);
+{
+  "id": "dev.BobTheLonley.neko-girl-smoking",
+  "name": "neko-girl-smoking",
+  "description": "neko-girl-smoking",
+  "author": {
+    "name": "Bob The Lonley Fisherman#2340",
+    "discordID": "531303458263924746",
+    "github": "BobTheLonley"
+  },
+  "version": "0.0.1",
+  "updater": {
+    "type": "github",
+    "id": "BobTheLonley/neko-girl-smoking"
+  },
+  "license": "MIT",
+  "type": "replugged-theme",
+  "main": "src/main.css"
 }
-
-.appMount-2yBXZl {
-  background: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url("https://vsthemes.org/uploads/posts/2021-12/1639091742_izobrazhenie_2021-12-10_021410.webp") center no-repeat;
-  background-size: cover !important;
-}
-
-.chat-2ZfjoI > *, .chat-2ZfjoI > * > * {
-  background: none !important;
-}
-
-.role-2TIOKu {
-  border: 1px solid;
-  border-color: rgba(255, 255, 255, .2) !important;
-}
-
-.layer-2BGhQ8:not(.disabledPointerEvents-cGr1My) > * > *, .contentColumn-1C7as6, .background-2avFV1, .connectionHeader-Ixbb1s, .connectionOptionsWrapper-3aVWcp, .integrationsWrapper-1V-5L9, .metadataContainer-35U-On, .connectContainer-1hylYM, .replugged-quickcss-wrapper, .scrollableContainer-15eg7h, .autocomplete-3NRXG8, .expandedFolderBackground-1kSAf6:not(.collapsed-uGXEbi), .grid-1aWVsE, .wrapper-1FP9YQ, .scrollbarGhostHairline-2LpzZ9, .inline {
-  background-color: rgba(0, 0, 0, .333) !important;
-}
-
-.peopleColumn-1wMU14 {
-  background: var(--background-primary);
-}
-
-[class*="lineClamp2Plus-"] {
-  -webkit-line-clamp: unset !important;
-}
-
-.mentioned-Tre-dv {
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: rgba(var(--mention-colour), .08) !important;
-}
-
-.mentioned-Tre-dv:hover {
-  background-color: rgba(var(--mention-colour), .1) !important;
-}
-
-div[class*="mentioned"]:before {
-  width: 4px;
-  background-color: rgb(var(--mention-colour));
-}
-
-div[class*="replying"]:before {
-  width: 4px;
-}
-
-div.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label="Help"], .wordmarkWindows-2dq6rw, div[id="user-context-invite-to-server"], div[id="user-context-call"] {
-  display: none !important;
-}
-
-.mediaAttachmentsContainer-1WGRWy, .oneByOneGridSingle-2ss-Zx, .messageAttachmentMediaMosaic-2ic1yt, .imageWrapper-oMkQl4 {
-  border-radius: 0;
-}
-
-.searchBar-jGtisZ {
-  width: 75px;
-  background: var(--background-secondary);
-  border-radius: 12px;
-}
-
-.children-3xh0VB:after {
-  display: none;
-}
-
-.role-2TIOKu {
-  border-radius: 12px;
-}
-
-.roleCircle-1EgnFN {
-  width: 5px !important;
-  height: 5px !important;
-}
-
-.content-1gYQeQ {
-  border-radius: 25px;
-}
-
-.unread-36eUEm {
-  z-index: 1;
-  height: 6px;
-  width: 6px;
-  background-color: rgba(var(--mention-colour));
-  border-radius: 50%;
-  margin-top: 0;
-  position: absolute;
-  top: 42%;
-  left: 3px;
-}
-
-.embedFull-1HGV2S {
-  border-radius: 0 15px 15px 0;
-}
-
-.theme-light .channel-typing-indicator {
-  -webkit-filter: invert();
-  filter: invert();
-}
-
-.scrollableContainer-15eg7h {
-  border-radius: 25px;
-}
-
-.hasConnectedBar-1vN2JH {
-  border-top-left-radius: 0 !important;
-  border-top-right-radius: 0 !important;
-}
-
-.attachedBars-2BCP3l, .replyBar-1oi75v {
-  border-top-left-radius: 25px !important;
-  border-top-right-radius: 25px !important;
-}
-{"id":"dev.BobTheLonley.neko-girl-smoking","name":"neko-girl-smoking","description":"smokeing neko girl","author":{"name":"Bob The Lonley Fisherman","discordID":"531303458263924746","github":"BobTheLonley"},"version":"0.0.1","updater":{"type":"github","id":"BobTheLonley/neko-girl-smoking"},"license":"MIT","type":"replugged-theme","main":"main.css"}
